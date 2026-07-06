@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Kalkulator</title>
+<link rel="stylesheet" href="kalkulator.css">
+</head>
+<body>
+
+<div class="calc">
+  <div class="brand">
+    <span class="name">HITUNG</span>
+    <span class="model">BY RARAW</span>
+  </div>
+
+  <div class="tape">
+    <div class="expr" id="expr">&nbsp;</div>
+    <div class="display" id="display">0</div>
+  </div>
+
+  <div class="keys">
+    <button class="func" data-action="clear">AC</button>
+    <button class="func" data-action="backspace">⌫</button>
+    <button class="func" data-action="percent">%</button>
+    <button class="op" data-action="operator" data-value="÷">÷</button>
+
+    <button data-action="digit" data-value="7">7</button>
+    <button data-action="digit" data-value="8">8</button>
+    <button data-action="digit" data-value="9">9</button>
+    <button class="op" data-action="operator" data-value="×">×</button>
+
+    <button data-action="digit" data-value="4">4</button>
+    <button data-action="digit" data-value="5">5</button>
+    <button data-action="digit" data-value="6">6</button>
+    <button class="op" data-action="operator" data-value="−">−</button>
+
+    <button data-action="digit" data-value="1">1</button>
+    <button data-action="digit" data-value="2">2</button>
+    <button data-action="digit" data-value="3">3</button>
+    <button class="op" data-action="operator" data-value="+">+</button>
+
+    <button class="wide" data-action="digit" data-value="0">0</button>
+    <button data-action="decimal">,</button>
+    <button class="eq" data-action="equals">=</button>
+  </div>
+</div>
+
+<script src="kalkulator.js"></script>
+</body>
+</html>
